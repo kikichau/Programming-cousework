@@ -33,13 +33,6 @@ public class ListStackComp  {
 
 	public int search(Object item) {
 
-		/* using get(i) is inefficient for large lists
-		for (int i = 1; i <= list.count(); i++)
-			if (item.equals(list.get(i))) return i;
-		return -1;
-		*/
-
-		//* iterator is a better solution
 		Iterator iter = iterator();
 		int i = 0;
 		while (iter.hasNext()) {
