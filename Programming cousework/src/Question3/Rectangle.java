@@ -37,7 +37,7 @@ public class Rectangle {
         return area;
     }
     
-    public String toSring(){
+    public String toString(){
         return "Rectangle: TopLeft = [" + topleft_of_x + ", " + topleft_of_y + "]; Length = " + length + "; Width = " + width;
     }
 }
