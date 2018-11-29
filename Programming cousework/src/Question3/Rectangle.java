@@ -38,6 +38,6 @@ public class Rectangle {
     }
     
     public String toString(){
-        return "Rectangle: TopLeft = [" + topleft_of_x + ", " + topleft_of_y + "]; Length = " + length + "; Width = " + width;
+        return "TopLeft = [" + topleft_of_x + ", " + topleft_of_y + "]; Length = " + length + "; Width = " + width;
     }
 }
